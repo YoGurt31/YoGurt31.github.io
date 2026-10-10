@@ -2,44 +2,50 @@
 @import "./styles/theme.css";
 
 @theme inline {
-  --color-background: var(--site-background);
-  --color-surface: var(--site-surface);
-  --color-surface-hover: var(--site-surface-hover);
-  --color-primary: var(--site-primary);
-  --color-primary-hover: var(--site-primary-hover);
-  --color-primary-dark: var(--site-primary-dark);
-  --color-accent: var(--site-accent);
-  --color-accent-light: var(--site-accent-light);
-  --color-gradient-mid: var(--site-gradient-mid);
-  --color-foreground: var(--site-foreground);
-  --color-secondary: var(--site-secondary);
-  --color-muted: var(--site-muted);
-  --font-heading: var(--site-font-heading);
-  --font-body: var(--site-font-body);
+    --color-background: var(--site-background);
+    --color-surface: var(--site-surface);
+    --color-surface-hover: var(--site-surface-hover);
+    --color-primary: var(--site-primary);
+    --color-primary-hover: var(--site-primary-hover);
+    --color-primary-dark: var(--site-primary-dark);
+    --color-accent: var(--site-accent);
+    --color-accent-light: var(--site-accent-light);
+    --color-gradient-mid: var(--site-gradient-mid);
+    --color-foreground: var(--site-foreground);
+    --color-secondary: var(--site-secondary);
+    --color-muted: var(--site-muted);
+
+    --font-hero: var(--site-font-hero);
+    --font-heading: var(--site-font-heading);
+    --font-body: var(--site-font-body);
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: var(--site-background);
-  color: var(--site-foreground);
-  font-family: var(--site-font-body);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--site-background);
+    color: var(--site-foreground);
+    font-family: var(--site-font-body);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--site-font-heading);
+    font-family: var(--site-font-heading);
+}
+
+h1.font-hero {
+    font-family: var(--site-font-hero);
 }
 
 ::selection {
-  background: var(--site-primary);
-  color: white;
+    background: var(--site-primary);
+    color: white;
 }

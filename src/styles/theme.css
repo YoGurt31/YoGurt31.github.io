@@ -1,18 +1,25 @@
 :root {
-    --site-background: #101012;
-    --site-surface: #1a1a1e;
-    --site-surface-hover: #211719;
-    --site-primary: #991b1b;
-    --site-primary-hover: #b91c1c;
-    --site-primary-dark: #7f1d1d;
-    --site-accent: #b91c1c;
-    --site-accent-light: #ef4444;
-    --site-gradient-mid: #d46a6a;
-    --site-foreground: #f5f5f5;
-    --site-secondary: #a1a1aa;
-    --site-muted: #71717a;
-    --site-grid: #7f1d1d;
-    --site-glow: rgba(185, 28, 28, 0.25);
+    --site-background: #0f0f0f;
+    --site-surface: #1e1e1e;
+    --site-surface-hover: #231414;
+
+    --site-primary: #7d0000;
+    --site-primary-hover: #960000;
+    --site-primary-dark: #656565;
+
+    --site-accent: #960000;
+    --site-accent-light: #ffffff;
+
+    --site-gradient-mid: #af0000;
+
+    --site-foreground: #c8c8c8;
+    --site-secondary: #656565;
+    --site-muted: #656565;
+
+    --site-grid: #c80000;
+    --site-glow: rgb(150 0 0 / 25%);
+
+    --site-font-hero: "Space Mono", monospace;
     --site-font-heading: "Space Grotesk", sans-serif;
     --site-font-body: "DM Sans", sans-serif;
 }
