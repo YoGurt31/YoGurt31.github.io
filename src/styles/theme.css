@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+    --site-background: #101012;
+    --site-surface: #1a1a1e;
+    --site-surface-hover: #211719;
+    --site-primary: #991b1b;
+    --site-primary-hover: #b91c1c;
+    --site-primary-dark: #7f1d1d;
+    --site-accent: #b91c1c;
+    --site-accent-light: #ef4444;
+    --site-gradient-mid: #d46a6a;
+    --site-foreground: #f5f5f5;
+    --site-secondary: #a1a1aa;
+    --site-muted: #71717a;
+    --site-grid: #7f1d1d;
+    --site-glow: rgba(185, 28, 28, 0.25);
+    --site-font-heading: "Space Grotesk", sans-serif;
+    --site-font-body: "DM Sans", sans-serif;
+}
